@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="62" id="KGk-i7-Jjw" customClass="BeautyMasterTableViewCell" customModule="ZapisKZ" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="62"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="62"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RDB-NH-gkL" customClass="CircledImageView" customModule="ZapisKZ" customModuleProvider="target">
+                        <rect key="frame" x="15" y="15" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="Lco-fN-He2"/>
+                            <constraint firstAttribute="width" constant="30" id="ml8-Nh-jX7"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Ocw-tz-rTO">
+                        <rect key="frame" x="60" y="-5.5" width="245" height="71"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4HC-UQ-dSG" customClass="UILabelDeviceClass" customModule="ZapisKZ" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="245" height="16"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
+                                        <real key="value" value="13"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lt3-cM-sYJ">
+                                <rect key="frame" x="0.0" y="21" width="245" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9J-iN-K9W" customClass="UILabelDeviceClass" customModule="ZapisKZ" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="27" height="50"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
+                                                <real key="value" value="11"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="SSR-03-iWA">
+                                        <rect key="frame" x="47" y="17.5" width="43.5" height="14.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mGx-1U-gLr" customClass="UILabelDeviceClass" customModule="ZapisKZ" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="30.5" height="14.5"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="12"/>
+                                                <color key="textColor" red="0.8901960784313725" green="0.85882352941176465" blue="0.26538842429577469" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="iPhoneFontSize">
+                                                        <real key="value" value="12"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rating_star_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Zae-Zg-2Vu">
+                                                <rect key="frame" x="33.5" y="2.5" width="10" height="10"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="10" id="JIa-mk-md7"/>
+                                                    <constraint firstAttribute="height" constant="10" id="cqg-h8-pD0"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="SSR-03-iWA" firstAttribute="centerY" secondItem="lt3-cM-sYJ" secondAttribute="centerY" id="57g-e2-fq1"/>
+                                    <constraint firstItem="u9J-iN-K9W" firstAttribute="leading" secondItem="lt3-cM-sYJ" secondAttribute="leading" id="FC7-uk-ZIX"/>
+                                    <constraint firstItem="u9J-iN-K9W" firstAttribute="top" secondItem="lt3-cM-sYJ" secondAttribute="top" id="JJJ-fO-bW4"/>
+                                    <constraint firstAttribute="bottom" secondItem="u9J-iN-K9W" secondAttribute="bottom" id="WOu-vz-xWa"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="SSR-03-iWA" secondAttribute="trailing" constant="20" id="b3I-I4-TVs"/>
+                                    <constraint firstItem="SSR-03-iWA" firstAttribute="leading" secondItem="u9J-iN-K9W" secondAttribute="trailing" constant="20" id="zx9-KK-VuZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="RDB-NH-gkL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="85E-uf-hfl"/>
+                    <constraint firstAttribute="bottom" secondItem="RDB-NH-gkL" secondAttribute="bottom" constant="15" id="Cki-Sn-fPp"/>
+                    <constraint firstItem="RDB-NH-gkL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="feo-o0-V9K"/>
+                    <constraint firstItem="Ocw-tz-rTO" firstAttribute="centerY" secondItem="RDB-NH-gkL" secondAttribute="centerY" id="hnK-hI-MVn"/>
+                    <constraint firstAttribute="trailing" secondItem="Ocw-tz-rTO" secondAttribute="trailing" constant="15" id="jle-AN-vb6"/>
+                    <constraint firstItem="Ocw-tz-rTO" firstAttribute="leading" secondItem="RDB-NH-gkL" secondAttribute="trailing" constant="15" id="s5V-p9-gei"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="beautyMasterAvatarImageView" destination="RDB-NH-gkL" id="GaB-Bw-xQw"/>
+                <outlet property="beautyMasterAverageRatingLabel" destination="mGx-1U-gLr" id="bOM-cg-1Hs"/>
+                <outlet property="beautyMasterFullNameLabel" destination="4HC-UQ-dSG" id="c20-A2-3Io"/>
+                <outlet property="beautyMasterProfessionLabel" destination="u9J-iN-K9W" id="wbf-Ey-sne"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="180.13392857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="rating_star_icon" width="10" height="10"/>
+    </resources>
+</document>

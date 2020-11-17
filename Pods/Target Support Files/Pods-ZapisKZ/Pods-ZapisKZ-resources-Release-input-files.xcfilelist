@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-ZapisKZ/Pods-ZapisKZ-resources.sh
+${PODS_ROOT}/YandexMapKit/YandexMapKit.framework/Versions/A/Resources/YandexMapKit.bundle
+${PODS_ROOT}/YandexMapKitDirections/YandexMapKitDirections.framework/Versions/A/Resources/YandexMapKitDirections.bundle
+${PODS_ROOT}/YandexMapKitPlaces/YandexMapKitPlaces.framework/Versions/A/Resources/YandexMapKitPlaces.bundle
+${PODS_ROOT}/YandexMapKitSearch/YandexMapKitSearch.framework/Versions/A/Resources/YandexMapKitSearch.bundle
+${PODS_ROOT}/YandexMapKitTransport/YandexMapKitTransport.framework/Versions/A/Resources/YandexMapKitTransport.bundle
+${PODS_ROOT}/YandexRuntime/YandexRuntime.framework/Versions/A/Resources/YandexRuntime.bundle

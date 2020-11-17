@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="97" id="KGk-i7-Jjw" customClass="BeautyServiceTableViewCell" customModule="ZapisKZ" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="97"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="97"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="cow-1m-vPy">
+                        <rect key="frame" x="30" y="15" width="230" height="67"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqa-qC-yVh" customClass="UILabelDeviceClass" customModule="ZapisKZ" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="38.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="WYL-M5-Hfn">
+                                <rect key="frame" x="0.0" y="31" width="82" height="14.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kFy-X5-Bwz" customClass="UILabelDeviceClass" customModule="ZapisKZ" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="31" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X7u-SV-OIJ" customClass="UILabelDeviceClass" customModule="ZapisKZ" customModuleProvider="target">
+                                        <rect key="frame" x="51" y="0.0" width="31" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="28I-h2-gcg" customClass="UILabelDeviceClass" customModule="ZapisKZ" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="52.5" width="31" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kZd-xS-e6g" customClass="CustomServiceSelectionButton" customModule="ZapisKZ" customModuleProvider="target">
+                        <rect key="frame" x="275" y="33.5" width="30" height="30"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="Wz0-Oj-C9l"/>
+                            <constraint firstAttribute="width" constant="30" id="fF2-su-CHY"/>
+                        </constraints>
+                        <connections>
+                            <action selector="serviceSelectionButtonTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="CcT-M3-XU2"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cow-1m-vPy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="0bR-f3-hzU"/>
+                    <constraint firstItem="cow-1m-vPy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="B6e-cf-5yL"/>
+                    <constraint firstItem="kZd-xS-e6g" firstAttribute="leading" secondItem="cow-1m-vPy" secondAttribute="trailing" constant="15" id="Hi4-4r-CM3"/>
+                    <constraint firstItem="kZd-xS-e6g" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="NUQ-sm-gHP"/>
+                    <constraint firstAttribute="trailing" secondItem="kZd-xS-e6g" secondAttribute="trailing" constant="15" id="hCv-9Y-xif"/>
+                    <constraint firstAttribute="bottom" secondItem="cow-1m-vPy" secondAttribute="bottom" constant="15" id="ubE-fY-NaB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="beautyServiceDurationLabel" destination="kFy-X5-Bwz" id="hZD-JO-Df6"/>
+                <outlet property="beautyServiceNameLabel" destination="hqa-qC-yVh" id="wGc-2K-yjT"/>
+                <outlet property="beautyServicePrepaymentAmountLabel" destination="28I-h2-gcg" id="MB1-Vw-SSI"/>
+                <outlet property="beautyServicePriceLabel" destination="X7u-SV-OIJ" id="7PM-dK-86R"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="170.42410714285714"/>
+        </tableViewCell>
+    </objects>
+</document>
